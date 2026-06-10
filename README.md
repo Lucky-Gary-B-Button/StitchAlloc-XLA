@@ -213,7 +213,7 @@ For the precision of mathematics, and for the next true renaissance of mankind.
 
 For technical inquiries, peer reviews, or to initiate a secure validation protocol, please establish contact via the verified gateway provided on my **[GitHub Profile](https://github.com/Lucky-Gary-B-Button)**.
 
-*(Note: Currently, only formal inquiries from official domains such as `@google.com` or `@deepmind.com` will be accepted and filtered for security purposes.)*
+*(Note: As this framework is optimized strictly for Google XLA and production TPU environments, all incoming inquiries are routed through a dedicated validation channel. Communication from official engineering domains will be prioritized and verified for security and compliance purposes.)*
 
 ---
 *Developed under a secure sandbox environment (luckygarybbutton). All rights reserved.*
