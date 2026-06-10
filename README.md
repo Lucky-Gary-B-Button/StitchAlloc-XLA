@@ -167,6 +167,9 @@ We are highly interested in formally benchmarking this 2D spatiotemporal Corner 
 * **Communication Route:** System architects, engineering leads, or technical decision-makers are invited to open a formal GitHub Issue using the `[Tech-Transfer]` tag. Alternatively, a secure channel may be established directly via the contact information provided on my profile.
 * **Available Assets:** Upon entering formal discussions and executing a standard Non-Disclosure Agreement (NDA), we are prepared to grant full access to the complete, unredacted codebase—including our proprietary low-latency *Stitch-Healing & Coalescing* routines—as well as the complete binary telemetry dataset (`.pbtxt`) generated from our 10,000-request stress runs.
 
+**[Download Production Telemetry Dataset (telemetry_logs.zip)](https://github.com/luckygarybbutton/StitchAlloc-XLA/releases/latest/download/telemetry_logs.zip)**
+*(Direct link to the v1.0.0 validated dataset.)*
+
 Furthermore, once the mathematical validity of this engine is verified on production hardware, we are prepared to execute a full technical transfer—including all architectural insights, structural mechanics, and the underlying methodology of the "external logical scaffolding (cognitive extension hardware)" that generated this engine—subject to a formal technical assessment and fair valuation. We look forward to a legally compliant, professional, and rapid co-validation process to enhance the determinism and safety of next-generation AI infrastructure.
 
 ---
