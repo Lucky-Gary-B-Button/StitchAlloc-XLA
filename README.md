@@ -230,4 +230,23 @@ The captured timeline explicitly monitors the host-side driver environment (`/ho
 As an independent developer operating without bare-metal device telemetry or kernel-level access, this host-side stabilization serves as the empirical foundation of our deterministic topology. I have officially submitted our application to the **TPU Research Cloud (TRC)**. By transitioning this 400-line mathematical model onto actual Google infrastructure, I aim to deepen our mutual understanding through joint physical validation and firmly solidify the practical value of this optimization technique on actual TPU silicon.
 
 ---
+
+## Chapter 12: Intellectual Property Cleanroom Statement & Origin Verification
+
+### 12.1 Absolute Ex-Ante Exclusion of Open-Source (MIT/GPL) Contamination
+To ensure seamless technology transfer, architectural auditing, and compliance within proprietary compiler infrastructures (e.g., Google XLA, JAX internal runtimes), this project enforces a strict **"Cleanroom Design"** paradigm. 
+
+The entire codebase of StitchAlloc-XLA—comprising the core 2D spatiotemporal packing engine, the *Stitch-Healing & Coalescing* routines, and the high-stress validation harness—has been written completely from scratch by the author. It contains **no copied, derived, or reverse-engineered code** from existing open-source implementations, including but not limited to MIT, Apache 2.0, GPL, or LGPL-licensed EDA/VLSI layouts or spatial databases.
+
+### 12.2 Public Domain Mathematical Foundation vs. Original Implementation
+The underlying data structure utilized in this framework is based exclusively on the classic geometric principles of **Corner Stitching**, originally published as a non-patent-restricted, public-domain mathematical concept by John K. Ousterhout in 1984 (*"Corner Stitching: A Data-Structuring Technique for VLSI Layout Tools"*). 
+
+While the fundamental mathematical axioms of tile-splitting and pointer-walking are universally derived from this 1984 topological definition, the concrete software architecture, its adaptation to the HLO tensor spatiotemporal dimensions (Time $\times$ Memory Offset), and the deterministic pointer convergence protocols are the **100% original creative expressions of the author**. 
+
+### 12.3 Technical Integrity and Compliance Readiness
+Because the intellectual property chain is completely uncontaminated and single-authored, the codebase maintains absolute structural clarity. The framework is fully prepared for formal technical audits and structured compliance verification. 
+
+We guarantee that this framework—this "400 lines of static equilibrium"—can be subjected to any industry-standard static analysis or rigorous architectural review without triggering a single open-source licensing concern.
+
+---
 *Developed under a secure sandbox environment (luckygarybbutton). All rights reserved.*
